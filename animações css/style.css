@@ -1,0 +1,108 @@
+/*body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    outline: 5px solid red;
+}
+
+img{
+    /*transform: translate(100px,100px); DESLOCAR PARA O EIXO X E Y*/
+    /*transform:scale(3)  AUMENTAR O TAMANHO DA IMG 3 VEZES O TAMANHO DELA*/
+    /*transform:rotate(45deg) ROTACIONAR 45 GRAUS*/
+    /*transform:skew(10deg ,20deg)*/
+
+
+/*body{
+    display: flex;
+}
+
+
+.box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    
+
+    transition-property: background-color,border-radius;
+    transition-duration: 0.2s, 0.3s;
+    transition-timing-function: ease-in;
+}
+.box:hover{
+    background-color: yellow;
+    border-radius: 50%;
+}
+.container{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    transition-property: background-color, border-radius,margin-top;
+    transition-duration: 0.2s,0.3s,0.2s;
+    transition-timing-function: ease-in-out;
+
+    
+}
+.container:hover{
+    
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 40px;
+}*/
+
+
+
+
+/*@keyframes fly{
+    to{transform: translateX(calc(100vw - 200px));}
+    
+}
+.box{
+    animation-name: fly;
+    animation-duration: 4s;
+    
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    
+}*/
+
+
+/*body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)no-repeat;
+    background-size: 300% 300%;
+    animation-name: gradient;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+h1{
+    font-size: 4em;
+    color: white;
+}
+@keyframes gradient{
+    from{background-position: 0% 50%;}
+    to{background-position: 100% 50%;}
+}*/
+
+body{
+    display: grid;
+    place-items:center;
+}
+@keyframes seta{
+    to{margin-top: 20px;}
+}
+img{
+    animation-name: seta;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

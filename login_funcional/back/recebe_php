@@ -1,0 +1,35 @@
+<?php
+
+if($_SERVER['REQUEST_METHOD']='POST'){
+    if(empty($_POST['nome'])){
+        $erroNome = "Por favor,preencha o campo";
+    }
+    else{
+        $nome = limpaPost($_POST['nome']);
+        if(!preg_match("/^[a-zA-Z-' ]*$/",$nome)){
+            $erroNome = "Apenas aceitamos letras e espaços em branco!";
+        }
+    }
+    if(empty($_POST['email'])){
+        $erroEmail = "Por favor,preencha o campo";
+    }
+    else{
+        $email = limpaPost($_POST['email']);
+        if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
+            $erroEmail = "Preencha o campo corretamente";
+
+        }
+    }
+}
+
+function limpaPost($valor){
+    $valor = trim($valor);
+    $valor = stripslashes($valor);
+    $valor = htmlspecialchars($valor);
+    return $valor;
+}
+
+
+
+
+?>

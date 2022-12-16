@@ -1,0 +1,47 @@
+body{
+    background-color: #353535;
+    
+}
+header{
+    text-align: center;
+
+}
+.direito{
+    text-align: left;
+    margin-left: auto;
+    width: 90%;
+    background-color: #05A8AA;
+    display: flex;
+    
+    
+}
+.esquerdo{
+    background-color: #FFFFFF;
+    width:10%;
+    border-radius: 10px;
+    float: left;
+
+}
+.lista{
+    margin-bottom: 30px;
+}
+.rodape{
+    margin-top: 10%;
+}
+/*botões*/
+
+.inicio{
+     margin-bottom: 2em;
+     
+}
+.pagamento{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 2.5%;
+    background-image: url(../image/money.png);
+    background-repeat: no-repeat;
+    
+}
+.saldos{
+    
+}

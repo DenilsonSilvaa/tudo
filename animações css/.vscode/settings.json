@@ -1,0 +1,6 @@
+{
+    "commentTranslate.hover.string": true,
+    "commentTranslate.hover.variable": true,
+    "commentTranslate.hover.concise": true,
+    "commentTranslate.targetLanguage": "pt"
+}

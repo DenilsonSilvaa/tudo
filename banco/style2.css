@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 97vh;
+    background-image: url(imagens/fundo.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+#h1{
+    color: rgb(207, 207, 19);
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+main{
+    background-color: #000000;
+    
+    width: 30%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+border-radius: 9px;
+
+    position: relative;
+    border: 1px solid white;
+}
+input{
+    padding: 10px;
+    border: none;
+    background-color: rgba(211, 206, 206, 0);
+    border-bottom:1px solid rgba(255, 234, 1, 0.551);
+    outline: none;
+    border-radius: 6px;
+    position: relative;
+    bottom: 9px;
+    color: white;
+}
+button{
+    padding: 11px 38px;
+    background-color: white;
+    
+    position: relative;
+    left: 14%;
+    top: 20px;
+    font-size: 19px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition-property:border-radius;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+button:hover{
+    box-shadow: 0px 0px 56px -8px #ffffff;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+
+
+}
+a{
+    position: absolute;
+    bottom: 1%;
+    color: rgb(156, 153, 153);
+    right: 39%;
+    text-decoration: none;
+}
+a:hover{
+   color: rgb(180, 180, 9);
+   transition-duration: 0.8s;
+}
+.erro{
+    color: rgb(253, 108, 108);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}

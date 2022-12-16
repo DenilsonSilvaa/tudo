@@ -1,0 +1,178 @@
+body{
+    background-image:linear-gradient(88deg,  rgb(129 121 121) 3%, rgb(177 167 167),rgb(231 222 222));
+    
+}
+
+*{/*Para a margin ficar zerada,sem ocupar espaço*/
+    margin: 0%;
+}
+/*Minhas variaveis*/
+:root{
+    --cor1:#171A21;
+    --cor2:#d0d4cd;
+    --cor3:#00747C;
+    
+
+}
+/*Área do cabeçario*/
+
+
+header{
+    background-color:var(--cor1);
+    text-align: center;
+    
+    display:block;
+    
+    
+}
+#logo{/*Colocar a imagem onde quero*/
+    position: relative;
+    right:14%;
+}
+    
+header>p{
+    
+    background-color: #f7f3f3;
+    width:20%;   
+    top:0px;
+    right:0px;
+    height:3%;
+    position:absolute;
+    display: inline-block;
+
+    border-radius: 4px;
+    padding-top:2px;
+    
+
+    
+
+}
+/* Imagem de usuario */
+#usuario{
+    position: relative;
+    top:4px;
+    margin-top: -10px;
+    
+}
+
+/* Área da navegação */
+nav{/*Mexer com o fundo na navegação*/
+    background-color:var(--cor2);
+    height: 56px;
+    box-shadow:1px 1px 9px rgba(59, 58, 58, 0.747);
+    
+    
+}
+nav>select{/*Posicionar o select,colcar uma cor de fundo*/
+    background-color:rgb(197, 189, 189);/*cor de fundo*/
+
+    
+    
+    position: relative;/*deixar a posição relativa*/
+    left: 24%;/*posicionar a esquerda*/
+    top: 19px;/*posicionar para cima*/
+    width: 13%;/*Larguar do elemento*/
+
+    box-shadow: 1px 2px 8px rgb(78, 76, 76);/*Sombreamento*/
+    border-radius: 4px;/*Arredondamento das bordas*/
+    border:2px solid rgba(71, 70, 70, 0.815);/*espessura da borda e cor*/
+}
+/* Área do meu conteudo */
+article>h2{
+    background-color:var(--cor3);
+    
+    position: absolute;
+    bottom: 59%;
+    left:5%;
+    height: 40px;
+    width: 91%;
+    
+
+    padding-top: 21px;
+    padding-bottom: -30px;
+    padding-left: 9px;
+
+    border-radius: 4px;
+    border: 1px solid rgb(32, 32, 32);
+    box-shadow:4px 5px 11px #3c3b3b;
+
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow:4px 3px 5px #262626;
+    color: rgb(233, 232, 232);
+}
+/* Área da minha tabela */
+table{
+
+    position: absolute;
+    bottom: 35%;
+    left: 6%;  
+
+}
+/* Customização do conteudo da minha tabela */
+tr>td{
+
+    border-radius: 3px;
+    padding:2px 40px 2px 40px;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+
+    box-shadow: 2px 3px 0px #625e5e;
+    border: 1px solid rgb(31, 28, 28);
+     
+}
+/* titulo tabela */
+th{
+
+    background-color:var(--cor3);
+    font-weight:bolder;
+    border: 2px solid black;
+
+}
+
+/* Meu roda pé */
+footer{
+
+    background-color:var(--cor1);
+    color: white;
+    text-align:center;
+
+    bottom: 0px;
+    position:absolute;
+
+    width:100%;
+    height:30px;  
+   
+    
+}
+/* Meu rodapé/link */
+footer>a{
+
+    display:flex;
+    width: 18%;
+    height:18px;
+    margin: auto;
+    
+    color: white;
+    text-decoration:none;
+    
+}
+
+
+/*Parte das animações(Pseudo classes)*/
+select:hover{
+
+    background-color:rgb(158, 158, 158);
+
+}
+footer>a:active{
+
+    color:gray
+    
+}
+footer>a:hover{
+
+    text-decoration: underline;
+
+}

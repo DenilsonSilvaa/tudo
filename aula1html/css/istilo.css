@@ -1,0 +1,32 @@
+*{
+    text-transform: uppercase;
+}
+body{
+    background-color: rgb(55, 53, 221);
+}
+.Center{
+    text-align: center;
+}
+.Borda-login:hover{
+    border:3px solid rgb(2, 2, 1) ;
+    border-radius: 19px;;
+    margin-left: 600px;
+    margin-right: 600px;
+    background: rgb(170, 255, 0);
+    max-width:100px;
+}
+.botao:hover{
+    background:rgb(255, 30, 0);
+    text-decoration:non;
+    
+
+}
+.senha{
+    margin-left:10px;
+    margin-bottom: 10px;
+    unicode-bidi: bidi-override;
+    
+}
+.usuario{
+    margin-top: 20px;
+}

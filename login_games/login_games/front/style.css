@@ -1,0 +1,143 @@
+*{
+    margin:0;
+}
+body{
+    background-color: #000000d6;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+main{
+    margin: auto;   
+}
+    
+#logo_stray{
+    margin: auto;
+    position: absolute;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    top: 50%;
+    
+    
+}
+.icons{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+.icons>a:hover{
+    position: relative;
+    bottom: 1px;
+}
+section{
+    display:flex;
+    
+}
+article>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    color: white;
+   
+}
+article{
+    background-color: #2e354b;
+    max-width: 500px;
+    width: 300px;
+    height: 35.1vw;
+    position: relative;
+    
+    border-top-left-radius: 7px;
+    border-bottom-left-radius:7px;
+    
+    border-top: 4px solid #1EECE0;
+    border-bottom: 4px solid #1EECE0;
+    box-shadow: -1px -0px 7px rgba(104, 102, 102, 0.733);
+    
+    
+    
+}
+article>a{
+    position: absolute;
+    bottom: 1%;
+    right: 20%;
+    text-decoration: none;
+    color:rgb(160, 159, 159);
+    text-align: center;
+}
+article>a:hover{
+    color:rgb(102, 100, 100);
+    transition-duration: 0.3s;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    top:147px;
+
+}
+form>input{
+    height: 40px;
+    width: 70%;
+    margin-bottom: -3px;
+    border-radius: 5px;
+    border:1px solid rgba(219, 207, 207, 0.096);
+    background-color: rgba(241, 240, 240, 0.219);
+    outline:0;
+    background-color: #fff7f7e6;
+
+}
+form>input:hover{
+    transition-duration: 0.8s;
+    border:1px solid black;
+    font-style: italic;
+}
+
+
+#checkbox{
+    position: relative;
+    right: 20%;
+    margin-bottom: 28px;
+    margin-top:2px;
+    
+}
+#checkbox>input{
+    margin-right: 6px;
+    border: 1px solid red;
+    
+}
+#checkbox>label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(172, 166, 166);
+}
+button{
+    background-color: rgba(240, 237, 237, 0.404);
+    border:1px solid rgb(219, 216, 216);
+    border-radius:10px;
+    box-shadow: 2px 2px 6px rgb(33, 33, 33);
+}
+button:hover{
+    
+    position: relative;
+    bottom: 1px;
+    
+}
+
+
+.stray>img{
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top:4px solid #8EF9F3;
+    border-bottom:4px solid #8EF9F3;
+    width: 95%;
+    height: 35.1vw;
+  
+}

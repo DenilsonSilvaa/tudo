@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border-radius:10px;
+    position: relative;
+}
+form{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:0%;
+   width: 600px;
+   height: 400px;
+    
+}

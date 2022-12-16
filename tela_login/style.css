@@ -1,0 +1,209 @@
+
+*{
+    margin: 0%;
+}
+body{
+    background-color: #080c22;
+}
+main{ /*corpo central*/
+    background-color: white;
+    border-radius: 10px;
+    border-top: 9px inset  #7eff66;
+    box-shadow: 4px 5px 6px 0px #4d4a4a4f;
+
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+   
+    width: 48%;
+    height: 59%;
+    min-width: 320px;
+    max-width: 800px;
+
+}
+:root{/*variaveis */
+    --font:sans-serif;
+    --cor1:#06091D;
+    --cor3:white;
+    --cor4:#04D939;
+
+}
+
+#direita{/*Lado direito dentro do meu main/inputs, forms*/
+    
+    position: absolute;
+    margin: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+
+    background-color: #050f36;
+    padding: 101px 8% 11% 6%;
+    border-bottom-right-radius: 7px;
+     
+}
+#h1{/*login*/
+    color: #04D939;
+    position: absolute;
+    top: 17%;
+    left: 16%;
+    font-size: 38px;
+    font-family: var(--font);
+    letter-spacing: 2px;
+}
+#usuario{/*Input E-mail*/
+
+    padding: 7px;
+    border-radius: 5px;
+
+    position: relative;
+    right: -5%;
+
+    background-color: rgb(196 193 193 / 77%);
+    border: 1px solid black;
+
+    
+}
+#usuario::placeholder{/*Palavra dentro do meu input*/
+    color: rgb(66, 64, 64);
+}
+#senha{/*Senha do meu input*/
+    padding: 7px;
+    border-radius: 5px;
+
+    position: relative;
+    right: -5%;
+
+    background-color: rgb(196 193 193 / 77%);
+    border: 1px solid black;
+}
+.usuario_senha{/*Conjunto do meu usuario e senha*/
+    position: relative;
+    top: -11px;
+}
+#senha::placeholder{/*Palavra que fica dentro da senha input*/
+    color: rgb(66, 64, 64);
+}
+
+.label_cor{/*Label que fica atras ou na frente das coisas(inputs)*/
+    color:rgb(134, 132, 132);
+    font-family: var(--font);
+    font-size: 13px;
+}
+.label_fundo{/*Minha imagem usuario e chave*/
+    
+    border-radius: 12px;
+    padding: 1px 2px;
+
+    position: absolute;
+    right: 0%;
+    z-index: 1;
+    
+    
+    
+}
+.icons{/*Meus icones que ficam do lado dos inputs*/
+    margin-top:1px;
+    
+}
+.icons:hover{/*animações da minha imagem user e key*/
+    opacity: 0.6;
+}
+form{/*Meu form que fica todos inputs*/
+    position: relative;
+    left: 10%;
+}
+#imagem_esquerda{/*minha imagem que fica a esquerda*/
+    position:absolute;
+    top:6%;
+    left: 3%;
+
+}
+#face{/*Minha imagem do facebook*/
+    position: relative;
+    left: 22%;
+    background-color: rgba(255, 255, 255, 0.18);
+    width: 11%;
+    padding: 6px 8px 0px 9px;
+    border-radius: 9px;  
+
+}
+#insta{/*Minha imagem do instagram*/
+
+    position: relative;
+    left:63%;
+    bottom: 30px;
+
+   
+    background-color: rgba(255, 255, 255, 0.18);
+    width: 11%;
+    padding: 6px 8px 0px 9px;
+    border-radius: 9px;
+
+}
+.face_insta{/*Minha junção do meu insta e facebook*/
+    position: relative;
+    bottom: 13px;
+    padding-bottom: 1px;
+    z-index: 2;
+
+}
+#checkbox{/*Minha caixa de marcação*/
+    
+    margin-bottom: 3%;
+    margin-left: -4%;
+    margin-right:   9px;
+    
+    
+}
+
+#botao{/*Botao conectar*/
+    padding: 8px 60px;
+    border-radius: 17px;
+    background-color: #04D939;
+    border: 1px solid gray;
+    box-shadow:1px 3px 40px -8px #04d939;
+    ;
+
+    position: relative;
+    top: 28px;
+    left: -2%;
+    margin: 0%;
+
+    font-family:var(--font)
+}
+#botao:hover{/*Animaçãõ do meu botão*/
+    background-color: #0ab638;
+    transition-duration: 0.3s;
+}
+
+input{/*Espaçamento entre inputs*/
+    margin-bottom: 10px;
+}
+.login{/*Toda minha área de login(inputs)*/
+    padding: 7px;
+    border-radius: 5px;
+
+    position: relative;
+    right: 14%;
+    top:29px;
+}
+
+
+#recuperar_senha{/*Meu link de recuprar senha*/
+    position: absolute;
+    bottom: 6px;
+    right: 33%;
+
+    text-decoration:none;
+    color:rgb(169, 169, 169);
+
+}
+#recuperar_senha:hover{/*Animação do recuperar senha*/
+    text-decoration: underline;
+    color: gray;
+}
+

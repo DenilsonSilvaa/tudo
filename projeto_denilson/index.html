@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onresize="teste()">
+    <header><!--Temos aqui o cabeçalio-->
+        <img id="logo" src="img/logo.png" width="20%" alt="escola Virtual">
+        
+        <p id="user">
+            <img src="img/person_FILL0_wght400_GRAD0_opsz48.png" alt="" id="usuario" width="10%">
+            Usuario Logado:Denilson Martins
+        </p>
+    </header>
+    <nav><!--Área de navegação-->
+        <select onclick="sel1()" >
+            <option value="1" class="teste">Academico</option>
+            <option value="2" class="teste">Alunos por Status</option>
+            <option value="3" class="teste">Alunos Cadastrados</option>
+            <option value="4" class="teste">Alunos Rematriculados</option>
+        </select>
+    </nav>
+    <main>
+        <section><!--Minha sessão-->
+            <article><!--Meu conteúdo-->
+                <h2 id="alunos">Alunos por Status</h2>
+                <table border ="1px"><!--Tabela-->
+                    <thead><!--Onde fica o "cabeçalio"-->
+                        <th>Matrícula</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>E-mail</th>
+                        <th>Telefone</th>
+                        <th>Turma</th>
+                    </thead>
+                    <tbody><!--Onde fica a lista-->
+                        <tr>
+                            <td>094637</td>
+                            <td>Marinildo Coelho</td>
+                            <td>937046475-39</td>
+                            <td>Marinildoc@gmail.com</td>
+                            <td>(81) 973644352</td>
+                            <td>CAR0400102NNA</td>
+                        </tr>
+                        <tr>
+                            <td>094457</td>
+                            <td>João Francisco</td>
+                            <td>456457958-34</td>
+                            <td>Joãofc@gmail.com</td>
+                            <td>(81) 973684675</td>
+                            <td>CAR0400102NNA</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>095737</td>
+                            <td>MMaria Jose</td>
+                            <td>453276345-39</td>
+                            <td>mariajsilva@gmail.com</td>
+                            <td>(81) 974685364</td>
+                            <td>CAR0400102NNA</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </article>
+
+        </section>
+        
+    </main>
+    <footer><!--Meu rodapé-->
+        <a href="https://www.instagram.com/denis_silva.m/" target="_blank">Desenvolvido por: Denilson Martins</a>
+    </footer>
+<script src="js/animacao.js"></script>
+</form>
+</body>
+</html>
