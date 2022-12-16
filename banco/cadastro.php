@@ -10,7 +10,7 @@
 <body>
     <main>
         <article>
-                <h1>Cadastro</h1>
+                <h1>Cadastr</h1>
             <form action="recebe.php" method="post">
                 <input type="number" name="cpf" placeholder="CPF" required><br>
                 <input type="text" name="nome" placeholder="Nome" required><br>
